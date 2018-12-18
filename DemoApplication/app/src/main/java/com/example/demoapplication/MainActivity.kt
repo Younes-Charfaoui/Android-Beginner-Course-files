@@ -1,8 +1,7 @@
-package dz.ibnkhaldoun.contactapp
+package com.example.demoapplication
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.widget.Button
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
@@ -11,8 +10,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        Toast.makeText(this, "hello world", Toast.LENGTH_LONG).show()
     }
-
-    fun fadila(x: Int, y: Int) = x * x + y * y
-
 }
